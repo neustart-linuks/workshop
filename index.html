@@ -3,41 +3,40 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Workshop-Umfrage — neustart-linuks.ru</title>
+<title>Workshop-Umfrage — neustart-linux.de</title>
 <style>
   body { font-family: Arial, sans-serif; max-width: 600px; margin: 2em auto; line-height: 1.5; }
   h1 { color: #2c3e50; }
   label { display: block; margin-top: 1em; font-weight: bold; }
   input[type="text"], input[type="email"] { width: 100%; padding: 0.5em; margin-top: 0.3em; }
-  button { margin-top: 1em; padding: 0.5em 1em; background-color: #2c3e50; color: white; border: none; cursor: pointer; }
-  button:hover { background-color: #34495e; }
+  a.submit-link { display: inline-block; margin-top: 1em; color: #2c3e50; text-decoration: underline; cursor: pointer; }
+  a.submit-link:hover { color: #34495e; }
 </style>
 </head>
 <body>
   <h1>Workshop-Umfrage</h1>
   <p>Vielen Dank, dass du dir kurz Zeit für diese Umfrage nimmst. Die Antworten helfen uns, die Inhalte praxisnah auf eure Bedürfnisse abzustimmen.</p>
 
-  <form action="https://neustart-linuks.github.io/workshop/testfail.html" method="POST">
-    
+  <form>
     <label for="nutzung">Wie heißt der heutige Dozent?</label>
-    <input type="text" id="nutzung" name="nutzung" placeholder="z. B. E-Mails, Social Media, Arbeiten" required>
+    <input type="text" id="nutzung" name="nutzung" placeholder="z. B. Max Mustermann">
 
-    <label for="datenverlust">Wie nennt sich das System beim Rechner, in welchem man das starten von USB-Sticks deaktiveren kann?</label>
-    <input type="text" id="datenverlust" name="datenverlust" placeholder="z. B. ja, häufig, selten" required>
+    <label for="datenverlust">Wie nennt sich das System beim Rechner, in welchem man das Starten von USB-Sticks deaktivieren kann?</label>
+    <input type="text" id="datenverlust" name="datenverlust" placeholder="z. B. BIOS/UEFI">
 
     <label for="phishing">Hast du schon einmal eine verdächtige Nachricht oder Mail erhalten?</label>
-    <input type="text" id="phishing" name="phishing" placeholder="z. B. ja, verdächtige Mails von Banken" required>
+    <input type="text" id="phishing" name="phishing" placeholder="z. B. ja, verdächtige Mails von Banken">
 
     <label for="wichtig">Was ist dir bei IT-Sicherheit besonders wichtig?</label>
-    <input type="text" id="wichtig" name="wichtig" placeholder="z. B. Datenschutz, sichere Passwörter" required>
+    <input type="text" id="wichtig" name="wichtig" placeholder="z. B. Datenschutz, sichere Passwörter">
 
     <label for="email">Deine E-Mailadresse</label>
-    <input type="email" id="email" name="email" placeholder="deine@email.de" required>
+    <input type="email" id="email" name="email" placeholder="deine@email.de">
 
     <label for="passwort">Beispiel-Passwort (mit Gemüse oder Tier)</label>
-    <input type="text" id="passwort" name="passwort" placeholder="z. B. KarotteTiger123" required>
+    <input type="text" id="passwort" name="passwort" placeholder="z. B. KarotteTiger123">
 
-    <button type="submit">Absenden</button>
+    <p><a class="submit-link" href="https://neustart-linuks.github.io/workshop/testfail.html">Absenden</a></p>
   </form>
 </body>
 </html>
