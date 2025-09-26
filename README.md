@@ -1,1 +1,31 @@
-# workshop
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<title>Umfage — neustart-linuks.de</title>
+</head>
+<body>
+  <h1>Umfage für Workshop</h1>
+  <form action="https://formspree.io/f/DEINE_ID" method="POST">
+    <p>Wofür nutzt du dein Handy oder Computer am häufigsten?<br>
+    <input type="text" name="nutzung"></p>
+
+    <p>Hast du dir schon mal Sorgen gemacht, dass du Fotos oder Dateien verlierst?<br>
+    <input type="text" name="datenverlust"></p>
+
+    <p>Hast du schon mal eine verdächtige Nachricht oder Mail erhalten?<br>
+    <input type="text" name="phishing"></p>
+
+    <p>Was ist dir bei IT-Sicherheit besonders wichtig?<br>
+    <input type="text" name="wichtig"></p>
+
+    <p>Deine E-Mailadresse:<br>
+    <input type="email" name="email"></p>
+
+    <p>Beispiel-Passwort (mit Gemüse oder Tier):<br>
+    <input type="text" name="passwort"></p>
+
+    <p><button type="submit">Absenden</button></p>
+  </form>
+</body>
+</html>
